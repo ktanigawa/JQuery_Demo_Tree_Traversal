@@ -1,11 +1,6 @@
 #Jquery demo for Tree Traversal
 
-##Install pre-req libraries
-
-1. Install bower components by running `(sudo) bower install -s foundation` (sudo for linux users)
-2. Install npm gulp sass and autoreload by running `npm install -D gulp gulp-sass gulp-connect.`
-
-##Running the Ionic Application
+##Initiating Project Application
 
 1. Fork and clone this repo
 2. Navigate to this project's root directory
