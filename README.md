@@ -1,11 +1,11 @@
-###Jquery demo for Tree Traversal
+#Jquery demo for Tree Traversal
 
 ##Install pre-req libraries
 
 1. Install bower components by running (sudo) bower install -s foundation (sudo for linux users)
 2. Install npm gulp sass and autoreload by running npm install -D gulp gulp-sass gulp-connect.
 
-#Running the Ionic Application
+##Running the Ionic Application
 
 1. Fork and clone this repo
 2. Navigate to this project's root directory
@@ -13,7 +13,7 @@
 4. Run bower install
 
 
-#Run the presentation in the browser:
+##Run the presentation in the browser:
 
 1. Add a new tab to your terminal and initiate gulp
 2. In the other tab open up your sublime text in the main directory of the Project
@@ -22,7 +22,7 @@
 
 ##Tasks 
 
-#Learn to understand Tree Traversal and efffectivly use its functions
+###Learn to understand Tree Traversal and efffectivly use its functions
 
 - find()
 - siblings() 
