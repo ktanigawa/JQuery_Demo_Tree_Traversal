@@ -2,8 +2,8 @@
 
 ##Install pre-req libraries
 
-1. Install bower components by running (sudo) bower install -s foundation (sudo for linux users)
-2. Install npm gulp sass and autoreload by running npm install -D gulp gulp-sass gulp-connect.
+1. Install bower components by running '(sudo) bower install -s foundation' (sudo for linux users)
+2. Install npm gulp sass and autoreload by running 'npm install -D gulp gulp-sass gulp-connect.'
 
 ##Running the Ionic Application
 
