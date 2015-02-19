@@ -3470,3 +3470,81 @@ footer {
     font-size: 14px;
     padding-top: 35px;
     padding-bottom: 15px; }
+
+.jquery_buttons {
+  display: inline-block;
+  text-align: center;
+  position: absolute;
+  padding-left: 30%; }
+  .jquery_buttons .find {
+    background-color: #666666;
+    border: solid #222222 3px;
+    color: #FFFFFF;
+    border-radius: 6px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin: 6px;
+    float: left; }
+  .jquery_buttons .sibling {
+    background-color: #666666;
+    border: solid #222222 3px;
+    color: #FFFFFF;
+    border-radius: 6px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin: 6px;
+    float: left; }
+  .jquery_buttons .children {
+    background-color: #666666;
+    border: solid #222222 3px;
+    color: #FFFFFF;
+    border-radius: 6px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin: 6px;
+    float: left; }
+  .jquery_buttons .parent {
+    background-color: #666666;
+    border: solid #222222 3px;
+    color: #FFFFFF;
+    border-radius: 6px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin: 6px;
+    float: left; }
+  .jquery_buttons .parents {
+    background-color: #666666;
+    border: solid #222222 3px;
+    color: #FFFFFF;
+    border-radius: 6px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin: 6px;
+    float: left; }
+  .jquery_buttons .closest {
+    background-color: #666666;
+    border: solid #222222 3px;
+    color: #FFFFFF;
+    border-radius: 6px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin: 6px;
+    float: left; }
