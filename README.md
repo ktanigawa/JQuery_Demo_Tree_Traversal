@@ -1,17 +1,5 @@
 #Jquery demo for Tree Traversal
 
-##Pre-Req:
-
-1. `sublime text-3`
-2. `Chrome browser`
-3. `brew`
-4. `npm and bower installed globaly`
-
-###For instalation of brew, npm, and bower:
-In your terminal command line type:
-1. `brew install npm`
-2. `npm install -g bower`
-
 ##Initiating Project Specs:
 
 1. Fork and clone this repo
@@ -25,7 +13,7 @@ In your terminal command line type:
 1. Kill any servers on `localhost:8080`
 2. Open new tab to your terminal and initiate `gulp`
 3. In the other tab open up your sublime text (`subl .`) in the main directory of the Project
-4. Open project in "`localhost:8080`" in the Chrome browser.
+4. Open project in "`localhost:3000`" in the Chrome browser.
 5. Open the javascript console in Chrome and be sure to be at the highest resolution possible ("No less than 1360px width of screen")
 
 -Follow along and do all work in the app.js file in the public/js directory
@@ -45,13 +33,13 @@ In your terminal command line type:
 The .find() method allows us to find all the descendants of specified element in the DOM tree.
 
 
-1. Use the Jquery method `find()` to look for all the children of Div class `row`.
-2. Then set up a click event to highlight all the children in the Div class `row`.
+1. Use the Jquery method `find()` to look for all the specified li children of Div class `row`.
+2. Then set up a click event to change background color to green all the `li` children in the Div class `row`.
 
 ###Step 2: siblings();
 The .siblings() method allows us to find all the siblings of a specified element in the DOM tree.
 
-1. Use the JQuery method `siblings()` to find all of the siblings of li class `nav_home`.
+1. Use the JQuery method `siblings()` to find all of the siblings of `li.fall` .
 2. Then set up a click event to change the background color of each of the siblings to red.
 
 ###Step 3: children();

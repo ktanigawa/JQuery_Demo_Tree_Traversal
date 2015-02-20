@@ -3548,3 +3548,12 @@ footer {
     padding-bottom: 2px;
     margin: 6px;
     float: left; }
+
+.highlife {
+  background-color: green; }
+
+.gravire {
+  background-color: red; }
+
+.kowloon {
+  visibility: hidden; }
