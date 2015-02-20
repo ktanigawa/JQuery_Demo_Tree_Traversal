@@ -3474,7 +3474,9 @@ footer {
 .jquery_buttons {
   display: inline-block;
   text-align: center;
-  position: absolute;
+  position: fixed;
+  top: 10px;
+  z-index: 2;
   padding-left: 30%; }
   .jquery_buttons .find {
     background-color: #666666;
