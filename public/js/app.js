@@ -8,8 +8,9 @@ $(function(){
   var find = $("div.find");
   var row = $("div.row");
   find.click(function (event) {
-    $('*').removeClass('highlife gravire kowloon');
-
+    $('.highlife, .gravire, .kowloon').removeClass('highlife gravire kowloon');
+    var found = row.find('li');
+    found.addClass('highlife');
   });
   
 
@@ -19,7 +20,7 @@ $(function(){
   var sibling = $("div.sibling");
   var fall = $('li.fall');
   sibling.click(function (event) {
-    $('*').removeClass('highlife gravire kowloon');
+    $('.highlife, .gravire, .kowloon').removeClass('highlife gravire kowloon');
 
   });
  
@@ -30,7 +31,7 @@ $(function(){
   var children = $("div.children");
   var desktop_logo = $("h1.desktop_logo");
   children.click(function (event) {
-    $('*').removeClass('highlife gravire kowloon');
+    $('.highlife, .gravire, .kowloon').removeClass('highlife gravire kowloon');
 
   });
 
@@ -41,7 +42,7 @@ $(function(){
   var parent = $("div.parent");
   var hero = $("div.hero");
   parent.click(function (event) {
-    $('*').removeClass('highlife gravire kowloon');
+    $('.highlife, .gravire, .kowloon').removeClass('highlife gravire kowloon');
 
   });
 
@@ -51,7 +52,7 @@ $(function(){
   var parents = $("div.parents");
   var nameof = $("span.nameof");
   parents.click(function (event) {
-    $('*').removeClass('highlife gravire kowloon');
+    $('.highlife, .gravire, .kowloon').removeClass('highlife gravire kowloon');
 
   });
 
@@ -60,7 +61,7 @@ $(function(){
   var closest = $("div.closest");
   var main_nav = $("ul.main_nav");
   closest.click(function (event) {
-    $('*').removeClass('highlife gravire kowloon');
+    $('.highlife, .gravire, .kowloon').removeClass('highlife gravire kowloon');
 
   });
 
