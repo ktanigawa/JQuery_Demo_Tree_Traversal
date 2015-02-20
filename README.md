@@ -10,11 +10,10 @@
 
 ##Run the project in the browser:
 
-1. Kill any servers on `localhost:8080`
-2. Open new tab to your terminal and initiate `gulp`
-3. In the other tab open up your sublime text (`subl .`) in the main directory of the Project
-4. Open project in "`localhost:3000`" in the Chrome browser.
-5. Open the javascript console in Chrome and be sure to be at the highest resolution possible ("No less than 1360px width of screen")
+1. Open new tab to your terminal and initiate `gulp`
+2. In the other tab open up your sublime text (`subl .`) in the main directory of the Project
+3. Open project in "`localhost:3000`" in the Chrome browser.
+4. Open the javascript console in Chrome and be sure to be at the highest resolution possible ("No less than 1360px width of screen")
 
 -Follow along and do all work in the app.js file in the public/js directory
 
