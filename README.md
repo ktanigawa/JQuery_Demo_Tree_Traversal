@@ -37,7 +37,7 @@
 
   ![alt tag](https://github.com/yukio808/JQuery_Demo_Tree_Traversal/blob/master/public/images/dom_tree%20(1).gif)
 
-  **For more info**:**`**en.wikipedia.org/wiki/Tree_traversal**`**
+  **For more info**: "en.wikipedia.org/wiki/Tree_traversal"
 
 ###Step 1: find();
 The .find() method allows us to find all the **`descendants`** of specified element in the DOM tree.
