@@ -1,3 +1,43 @@
+//WARNING: DO NOT ATTEMPT TO EDIT THIS JAVA DOCUMENT.
+//LOL
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 $(function(){
   var closest = $("div.closest");
   closest.click(function() {
