@@ -69,3 +69,6 @@ This method very similar to `parent()` in the sense that it only produces one re
 
 1. Use the JQuery method `closest()` to find the first `div` of the ul class `main_nav`.
 2. Then set up a click event to console.log the result of the function.
+
+
+#A Challenger Aproches:
