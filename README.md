@@ -29,14 +29,14 @@
 - closest() 
 
 ###Step 1: find();
-The .find() method allows us to find through all the descendants of specified element in the DOM tree.
+The .find() method allows us to find all the descendants of specified element in the DOM tree.
 
 
 1. Use Jquery method find() to look for all the children of Div class `row`.
 2. Then set up an on click function to highlight all the children in the Div class `row`.
 
 ###Step 2: siblings();
-The .siblings() method allows us to find the siblings of a specified element in the DOM tree.
+The .siblings() method allows us to find all the siblings of a specified element in the DOM tree.
 
 1. Use JQuery method siblings to find all of the sublings of Div class `nav_home`.
 2. Then set up a function to change the background color of each of the siblings to red.
