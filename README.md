@@ -32,10 +32,8 @@
 ###The Dom tree 
 
 -The dom tree is a representation of a complex structure such as a html page.
-The reason for for it being called a "tree" comes from its visual likeness to that of a actual tree. The trees leaves are your html tags and any objects stored in them. These the spacific term for these tags are `nodes`. These nodes are your **div, h, p, a tags etc.**.
-
-
-
+  It is named a "tree structure" because of its visual likeness to that of a actual tree. Even though the chart is generally upside down compared to an actual tree, with the "root" at the top and the "leaves" at the bottom. The tree's leaves in our case are your html tags and any objects stored in them. The spacific term for these tags are `nodes`. These nodes are your **div, h, p, a tags etc.** The tree is very useful to us. Especially when working with html pages. it is very easy to get lost in tyour html page if you dont know the exact location of your tags at a given moment. It also makes styling css Almost imposible (at least for me).
+  In JQuerry there are a surplus amout of functions to traverse throughout the tree as a tree is represented and gone through linearly.
 
 ###Step 1: find();
 The .find() method allows us to find all the `descendants` of specified element in the DOM tree.
