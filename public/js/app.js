@@ -9,8 +9,9 @@ $(function(){
   var row = $("div.row");
   find.click(function (event) {
     $('.highlife, .gravire, .kowloon').removeClass('highlife gravire kowloon');
+    $('.vi').remove();
 
-    
+
   });
   
 
@@ -21,6 +22,7 @@ $(function(){
   var fall = $('li.fall');
   sibling.click(function (event) {
     $('.highlife, .gravire, .kowloon').removeClass('highlife gravire kowloon');
+    $('.vi').remove();
 
   });
  
@@ -32,6 +34,7 @@ $(function(){
   var desktop_logo = $("h1.desktop_logo");
   children.click(function (event) {
     $('.highlife, .gravire, .kowloon').removeClass('highlife gravire kowloon');
+    $('.vi').remove();
 
   });
 
@@ -43,6 +46,7 @@ $(function(){
   var hero = $("div.hero");
   parent.click(function (event) {
     $('.highlife, .gravire, .kowloon').removeClass('highlife gravire kowloon');
+    $('.vi').remove();
 
   });
 
@@ -53,6 +57,7 @@ $(function(){
   var nameof = $("span.nameof");
   parents.click(function (event) {
     $('.highlife, .gravire, .kowloon').removeClass('highlife gravire kowloon');
+    $('.vi').remove();
 
   });
 
@@ -63,6 +68,13 @@ $(function(){
   closest.click(function (event) {
     $('.highlife, .gravire, .kowloon').removeClass('highlife gravire kowloon');
 
-  });
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////    
+
+
+  });
+  closest.click(function() {
+  $(".vi").append('<iframe width="640" height="385" src="//www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1" frameborder="0" allowfullscreen></iframe>').delay(4000);
+  $( ".vi" ).show( "slow" );
+ });
 });
