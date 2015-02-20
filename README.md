@@ -1,3 +1,21 @@
+                                              ,--,                                                                
+                                           ,---.'|                                                                
+    ,---,        ,---,.                    |   | :       ,---,.   ,---,         ,----..                    ,---,. 
+  .'  .' `\    ,'  .' |       ,---.        :   : |     ,'  .' |  '  .' \       /   /   \           ,--,  ,'  .' | 
+,---.'     \ ,---.'   |      /__./|        |   ' :   ,---.'   | /  ;    '.    |   :     :        ,'_ /|,---.'   | 
+|   |  .`\  ||   |   .' ,---.;  ; |        ;   ; '   |   |   .':  :       \   .   |  ;. /   .--. |  | :|   |   .' 
+:   : |  '  |:   :  |-,/___/ \  | |        '   | |__ :   :  |-,:  |   /\   \  .   ; /--`  ,'_ /| :  . |:   :  |-, 
+|   ' '  ;  ::   |  ;/|\   ;  \ ' |        |   | :.'|:   |  ;/||  :  ' ;.   : ;   | ;  __ |  ' | |  . .:   |  ;/| 
+'   | ;  .  ||   :   .' \   \  \: |        '   :    ;|   :   .'|  |  ;/  \   \|   : |.' .'|  | ' |  | ||   :   .' 
+|   | :  |  '|   |  |-,  ;   \  ' .        |   |  ./ |   |  |-,'  :  | \  \ ,'.   | '_.' ::  | | :  ' ;|   |  |-, 
+'   : | /  ; '   :  ;/|   \   \   '        ;   : ;   '   :  ;/||  |  '  '--'  '   ; : \  ||  ; ' |  | ''   :  ;/| 
+|   | '` ,/  |   |    \    \   `  ;        |   ,/    |   |    \|  :  :        '   | '/  .':  | : ;  ; ||   |    \ 
+;   :  .'    |   :   .'     :   \ |        '---'     |   :   .'|  | ,'        |   :    /  '  :  `--'   \   :   .' 
+|   ,.'      |   | ,'        '---"                   |   | ,'  `--''           \   \ .'   :  ,      .-./   | ,'   
+'---'        `----'                                  `----'                     `---`      `--`----'   `----'     
+                                                                                                                 
+
+
 #Jquery demo for Tree Traversal
 
 ##Initiating Project Application
@@ -50,7 +68,7 @@ This selector is very similar to `find()`, however the children selector only go
 2. Then set up a click event to hide the child elements using the CSS property visibility.
 
 ###Step 4: Parent();
-The parent() method traverses to the immediate parent of a specified element in the DOM tree
+The .parent() method traverses to the immediate parent of a specified element in the DOM tree
 
 1. Use the JQuery method `parent()` to find the immediate parent of the Div class `hero`.
 2. Then set up a click event to console.log the result of the function.
@@ -69,7 +87,3 @@ This method very similar to `parent()` in the sense that it only produces one re
 
 1. Use the JQuery method `closest()` to find the first `div` of the ul class `main_nav`.
 2. Then set up a click event to console.log the result of the function.
-
-
-
-------``----------
