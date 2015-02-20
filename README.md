@@ -10,17 +10,17 @@
 
 ##Run the presentation in the browser:
 
-1. Open new tab to your terminal and initiate `gulp`
-2. In the other tab open up your sublime text (`subl .`) in the main directory of the Project
-3. Kill any servers on `localhost:8080`
+1. Kill any servers on `localhost:8080`
+2. Open new tab to your terminal and initiate `gulp`
+3. In the other tab open up your sublime text (`subl .`) in the main directory of the Project
 4. Open project in "`localhost:8080`" in the Chrome browser.
 5. Open the javascript console in Chrome and be sure to be at the highest resolution possible ("No less than 1360px width of screen")
 
--Follow along in the app.js file in the public/js directory
+-Follow along and do all work in the app.js file in the public/js directory
 
 ##Tasks 
 
-###Learn to understand Tree Traversal and efffectivly use its functions
+###Learn to understand Tree Traversal and effectivly use its functions
 
 - find()
 - siblings() 
@@ -39,14 +39,14 @@ The .find() method allows us to find all the descendants of specified element in
 ###Step 2: siblings();
 The .siblings() method allows us to find all the siblings of a specified element in the DOM tree.
 
-1. Use the JQuery method `siblings()` to find all of the sublings of Div class `nav_home`.
+1. Use the JQuery method `siblings()` to find all of the siblings of li class `nav_home`.
 2. Then set up a click event to change the background color of each of the siblings to red.
 
 ###Step 3: children();
 The .children() method allows us to find the children of a specified element in the DOM tree.
 This selector is very similar to `find()`, however the children selector only goes down 1 section of a tree.
 
-1. Use the JQuery method `children()` to find all the children of parent  `desktop_logo`.
+1. Use the JQuery method `children()` to find all the children of parent of h1 `desktop_logo`.
 2. Then set up a click event to hide the child elements using the CSS property visibility.
 
 ###Step 4: Parent();

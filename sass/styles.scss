@@ -11,7 +11,7 @@ $shader_txt: #CCCCCC;
 $borderpt1: #555555;
 $borderpt2: #777777;
 $hover_color_price: #222222;
-
+body 
 
 body{
   font-size: 22px;
@@ -84,9 +84,6 @@ header{
         position: absolute;
         padding: auto;
         margin:auto;
-        a{
-          visibility: hidden;
-        }
       }
       .nameof{
         font-size: 22px;
