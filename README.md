@@ -8,7 +8,7 @@
 4. `Run bower install`
 
 
-##Run the presentation in the browser:
+##Run the project in the browser:
 
 1. Kill any servers on `localhost:8080`
 2. Open new tab to your terminal and initiate `gulp`
