@@ -1,6 +1,6 @@
 #Jquery demo for Tree Traversal
 
-##Initiating Project Application
+##Initiating Project Specs
 
 1. Fork and clone this repo
 2. Navigate to this project's root directory
