@@ -4,7 +4,7 @@
 
 1. Fork and clone this repo
 2. Navigate to this project's root directory in your command terminal.
-3. **`**Run npm install**`**
+3. **`Run npm install`**
 4. **`**Run bower install**`**
 
 
