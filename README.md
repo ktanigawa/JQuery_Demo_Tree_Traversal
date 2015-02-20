@@ -1,6 +1,18 @@
 #Jquery demo for Tree Traversal
 
-##Initiating Project Specs
+##Pre-Req:
+
+1. `sublime text-3`
+2. `Chrome browser`
+3. `brew`
+4. `npm and bower installed globaly`
+
+###For instalation of brew, npm, and bower:
+In your terminal command line type:
+1. `brew install npm`
+2. `npm install -g bower`
+
+##Initiating Project Specs:
 
 1. Fork and clone this repo
 2. Navigate to this project's root directory in your command terminal.
