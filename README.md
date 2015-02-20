@@ -29,18 +29,46 @@
 - closest() 
 
 ###Step 1: find();
-The .find() method allows us to search through the descendants of specified elements in the DOM tree.
+The .find() method allows us to find through all the descendants of specified element in the DOM tree.
 
 
-1. Use Jquery function find() to look for all the children of Div class `row`.
+1. Use Jquery method find() to look for all the children of Div class `row`.
 2. Then set up an on click function to highlight all the children in the Div class `row`.
 
-###Step2: siblings();
-The .siblings() method allows us to search through the siblings of a specified element in the DOM tree
+###Step 2: siblings();
+The .siblings() method allows us to find the siblings of a specified element in the DOM tree.
 
-1. Use JQuery function siblings to find all of the sublings of Div class `nav_home`.
+1. Use JQuery method siblings to find all of the sublings of Div class `nav_home`.
 2. Then set up a function to change the background color of each of the siblings to red.
 
-###
+###Step 3: children();
+The .children() method allows us to find the children of a specified element in the DOM tree.
+This selector is very similar to `find()`, however the children selector only goes down 1 section of a tree.
+
+1. Use JQuery method children() to find all the children of parent  `desktop_logo`.
+2. Then set up a function to hide the child elements using the CSS property visibility.
+
+###Step 4: Parent();
+The parent() method traverses to the immediate parent of a specified element in the DOM tree
+
+1. Use JQuery method parent() to find the immediate parent of the Div class `hero`.
+2. Then set up a function to console.log the result of the function.
+
+###Step 5: parents();
+The .parents() method allows us to search through the ancestors of a specified element in the DOM tree.
+Again another very similar function this time for parent. You can think of the parent() method as your `immediate parent`(ie.your mom or your dad) and the parents() method as a representation of your `ancestors`(ie. your grandparents and their parents) all the way to the begining.
+
+1. Use JQuery method parents() to find all the parents of Div class Span class `nameof`.
+2. Then set up a function to console.log the result of the function.
+Note: the syntax of the method states that it will return the results of the method in reversed order despite the fact that it searches from the bottom up
+
+###Step 6: closest();
+The .closest() method searches through the element and their ancestors in the DOM tree for a specified perameter (ie. objects, elements, and strings.ect) and then stops when it finds the `first` matching result.
+This is method very similar to `parent()` in the sense that it only producess one result, However the closest() method can traverse throughout the tree to find a result instead of taking the first imediate parent that the parent() method does.
+
+1. Use JQuery method closest() to find the first `div` of the ul class `main_nav`.
+2. Then set up a function to console.log the result of the function.
+
+
 
 ------``----------

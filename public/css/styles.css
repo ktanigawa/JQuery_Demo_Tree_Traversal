@@ -3068,6 +3068,8 @@ header .desktop_logo {
       position: absolute;
       padding: auto;
       margin: auto; }
+      header nav.top-bar .mobile_logo a {
+        visibility: hidden; }
     header nav.top-bar .nameof {
       font-size: 22px;
       padding-left: 100px;

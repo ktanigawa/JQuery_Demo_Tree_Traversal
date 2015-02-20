@@ -84,6 +84,9 @@ header{
         position: absolute;
         padding: auto;
         margin:auto;
+        a{
+          visibility: hidden;
+        }
       }
       .nameof{
         font-size: 22px;
