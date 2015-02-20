@@ -67,14 +67,7 @@ $(function(){
   var main_nav = $("ul.main_nav");
   closest.click(function (event) {
     $('.highlife, .gravire, .kowloon').removeClass('highlife gravire kowloon');
-
-
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////    
-
+    
 
   });
-  closest.click(function() {
-  $(".vi").append('<iframe width="640" height="385" src="//www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1" frameborder="0" allowfullscreen></iframe>').delay(4000);
-  $( ".vi" ).show( "slow" );
- });
 });
