@@ -9,8 +9,8 @@ $(function(){
   var row = $("div.row");
   find.click(function (event) {
     $('.highlife, .gravire, .kowloon').removeClass('highlife gravire kowloon');
-    var found = row.find('li');
-    found.addClass('highlife');
+
+    
   });
   
 
