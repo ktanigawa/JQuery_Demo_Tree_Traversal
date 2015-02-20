@@ -15,7 +15,7 @@
 3. Open project in "`localhost:3000`" in the Chrome browser.
 4. Open the javascript console in Chrome and be sure to be at the highest resolution possible ("No less than 1360px width of screen")
 
--Follow along and do all work in the app.js file in the public/js directory
+-Follow along and do all work in the app.js file in the public/js directory for live coding
 
 ##Tasks 
 
@@ -28,38 +28,47 @@
 - parents() 
 - closest() 
 
+##What is a tree?
+###The Dom tree 
+
+-The dom tree is a representation of a complex structure such as a html page.
+The reason for for it being called a "tree" comes from its visual likeness to that of a actual tree. The trees leaves are your html tags and any objects stored in them. These the spacific term for these tags are `nodes`. These nodes are your **div, h, p, a tags etc.**.
+
+
+
+
 ###Step 1: find();
-The .find() method allows us to find all the descendants of specified element in the DOM tree.
+The .find() method allows us to find all the `descendants` of specified element in the DOM tree.
 
 
-1. Use the Jquery method `find()` to look for all the specified li children of Div class `row`.
-2. Then set up a click event to change background color to green all the `li` children in the Div class `row`.
+1. Use the Jquery method `find()` to look for all the `li` children of Div class `row`.
+2. Then finish the pre-coded click event to change background color to green on all the `li` children in the Div class `row`.
 
 ###Step 2: siblings();
-The .siblings() method allows us to find all the siblings of a specified element in the DOM tree.
+The .siblings() method allows us to find all the `siblings` of a specified element in the DOM tree.
 
 1. Use the JQuery method `siblings()` to find all of the siblings of `li.fall` .
-2. Then set up a click event to change the background color of each of the siblings to red.
+2. Then finish the pre-coded click event to change the background color of each of the siblings to red.
 
 ###Step 3: children();
 The .children() method allows us to find the children of a specified element in the DOM tree.
 This selector is very similar to `find()`, however the children selector only goes down 1 section of a tree.
 
 1. Use the JQuery method `children()` to find all the children of parent of h1 `desktop_logo`.
-2. Then set up a click event to hide the child elements using the CSS property visibility.
+2. Then finish the pre-coded click event to hide the child elements using the CSS property visibility.
 
 ###Step 4: Parent();
 The .parent() method traverses to the immediate parent of a specified element in the DOM tree
 
 1. Use the JQuery method `parent()` to find the immediate parent of the Div class `hero`.
-2. Then set up a click event to console.log the result of the function.
+2. Then finish the pre-coded click event to console.log the result of the function.
 
 ###Step 5: parents();
 The .parents() method allows us to search through the ancestors of a specified element in the DOM tree.
 Again another very similar function this time for parent. You can think of the parent() method as your `immediate parent`(ie.your mom or your dad) and the `parents()` method as a representation of your `ancestors`(ie. your grandparents and their parents) all the way to the begining.
 
 1. Use the JQuery method `parents()` to find all the `ancestors` of Span class `nameof`.
-2. Then set up a click event to console.log the result of the function.
+2. Then finish the pre-coded click event to console.log the result of the function.
 Note: the syntax of the method states that it will return the results in reversed order despite the fact that it searches from the bottom up.
 
 ###Step 6: closest();
@@ -67,7 +76,7 @@ The .closest() method searches through the element and their ancestors in the DO
 This method very similar to `parent()` in the sense that it only produces one result. However the closest() method can traverse throughout the tree to find a result instead of taking the first imediate parent that the `parent()` method does.
 
 1. Use the JQuery method `closest()` to find the first `div` of the ul class `main_nav`.
-2. Then set up a click event to console.log the result of the function.
+2. Then finish the pre-coded click event to console.log the result of the function.
 
 
 #A Challenger Aproches:
