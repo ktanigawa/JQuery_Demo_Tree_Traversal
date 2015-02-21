@@ -10,8 +10,8 @@ $(function(){
   find.click(function (event) {
     $('.highlife, .gravire, .kowloon').removeClass('highlife gravire kowloon');
     $('.vi').remove();
-
-
+    var found = row.find('li');
+    found.addClass('highlife');
   });
   
 
@@ -23,6 +23,7 @@ $(function(){
   sibling.click(function (event) {
     $('.highlife, .gravire, .kowloon').removeClass('highlife gravire kowloon');
     $('.vi').remove();
+    $('li.fall').siblings().addClass('gravire');
 
   });
  
@@ -35,6 +36,7 @@ $(function(){
   children.click(function (event) {
     $('.highlife, .gravire, .kowloon').removeClass('highlife gravire kowloon');
     $('.vi').remove();
+    $('h1.desktop_logo').children().addClass('kowloon');
 
   });
 
@@ -47,7 +49,8 @@ $(function(){
   parent.click(function (event) {
     $('.highlife, .gravire, .kowloon').removeClass('highlife gravire kowloon');
     $('.vi').remove();
-
+    var result = $('div.hero').parent();
+    console.log(result);
   });
 
 // 1. Use the JQuery method `parents()` to find all the `ancestors` of Span class `nameof`.
@@ -58,7 +61,8 @@ $(function(){
   parents.click(function (event) {
     $('.highlife, .gravire, .kowloon').removeClass('highlife gravire kowloon');
     $('.vi').remove();
-
+    var result = nameof.parents();
+    console.log(result);
   });
 
 // 1. Use the JQuery method `closest()` to find the first `div` of the ul class `main_nav`.
@@ -67,7 +71,8 @@ $(function(){
   var main_nav = $("ul.main_nav");
   closest.click(function (event) {
     $('.highlife, .gravire, .kowloon').removeClass('highlife gravire kowloon');
-    
+    var result = main_nav.closest('div');
+    console.log(result);
 
   });
 });

@@ -67,11 +67,12 @@ Simply add a extra class called **`kowloon`** to the specified target using the 
 An Example will be shown in the live coding on 2/23/15.
 Everyone else good luck
 
-###Step 4: Parent();
+###Step 4: parent();
 The .parent() method traverses to the immediate parent of a specified element in the DOM tree
 
 1. Use the JQuery method **`parent()`** to find the immediate parent of the Div class **`hero`**.
 2. Then finish the pre-coded click event to console.log the result of the function.
+//add class kowloon for styling.
 
 ###Step 5: parents();
 The .parents() method allows us to search through the ancestors of a specified element in the DOM tree.
