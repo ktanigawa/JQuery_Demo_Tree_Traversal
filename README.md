@@ -10,8 +10,8 @@
 
 ##Run the project in the browser:
 
-1. Open new tab to your terminal and initiate **`gulp`**
-2. In the other tab open up your sublime text (**`**subl .`**) in the main directory of the Project
+1. Open a new tab to your terminal and initiate **`gulp`**
+2. In the other tab open up your sublime text (**`subl .`**) in the main directory of the Project
 3. Open project in "**`localhost:3000`**" in the Chrome browser.
 4. Open the javascript console in Chrome and be sure to be at the highest resolution possible ("No less than 1360px width of screen")
 
@@ -41,13 +41,18 @@ The DOM tree is a representation of a complex structure such as a html page.
 
 ###Step 1: find();
 The .find() method allows us to find all the **`descendants`** of specified element in the DOM tree.
-
+Simply add a extra class called **`highlife`** to the specified target using the addClass method s\at the end of the `find()` method. 
+An Example will be shown in the live coding on 2/23/15.
+EVeryone else good luck
 
 1. Use the Jquery method **`find()`** to look for all the **`li`** children of Div class **`row`**.
 2. Then finish the pre-coded click event to change background color to green on all the **`**li**`** children in the Div class **`**row**`**.
 
 ###Step 2: siblings();
 The .siblings() method allows us to find all the **`**siblings**`** of a specified element in the DOM tree.
+Simply add a extra class called **`gravire`** to the specified target using the addClass method s\at the end of the `find()` method. 
+An Example will be shown in the live coding on 2/23/15.
+Everyone else good luck
 
 1. Use the JQuery method **`siblings()`** to find all of the siblings of **`li.fall`** .
 2. Then finish the pre-coded click event to change the background color of each of the siblings to red.
@@ -55,8 +60,11 @@ The .siblings() method allows us to find all the **`**siblings**`** of a specifi
 ###Step 3: children();
 The .children() method allows us to find the children of a specified element in the DOM tree.
 This selector is very similar to **`**find()**`**, however the children selector only goes down 1 section of a tree.
+Simply add a extra class called **`kowloon`** to the specified target using the addClass method s\at the end of the `find()` method. 
+An Example will be shown in the live coding on 2/23/15.
+EVeryone else good luck
 
-1. Use the JQuery method **`**children()**`** to find all the children of parent of h1 **`desktop_logo`**.
+1. Use the JQuery method **`children()`** to find all the children of parent of h1 **`desktop_logo`**.
 2. Then finish the pre-coded click event to hide the child elements using the CSS property visibility.
 
 ###Step 4: Parent();
@@ -67,7 +75,7 @@ The .parent() method traverses to the immediate parent of a specified element in
 
 ###Step 5: parents();
 The .parents() method allows us to search through the ancestors of a specified element in the DOM tree.
-Again another very similar function this time for parent. You can think of the parent() method as your **`**immediate parent**`**(ie.your mom or your dad) and the **`parents()`** method as a representation of your **`ancestors`**(ie. your grandparents and their parents) all the way to the begining.
+Again another very similar function this time for parent. You can think of the parent() method as your **`immediate parent`**(ie.your mom or your dad) and the **`parents()`** method as a representation of your **`ancestors`**(ie. your grandparents and their parents) all the way to the begining.
 
 1. Use the JQuery method **`parents()`** to find all the **`ancestors`** of Span class **`nameof`**.
 2. Then finish the pre-coded click event to console.log the result of the function.
