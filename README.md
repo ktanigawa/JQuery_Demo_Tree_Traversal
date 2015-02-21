@@ -32,7 +32,7 @@
 ###The Dom tree 
 
 The DOM tree is a representation of a complex structure such as a html page.
-  It is named a "tree structure" because of its visual likeness to that of a actual tree. Even though the chart is generally upside down, with the "root" at the top and the "leaves" at the bottom. It still works as a nice visual. The tree's leaves in our case are your html tags and any objects stored in them. The specific term for these tags are **`nodes`**. These nodes are your **div, h, p, a tags etc.** The tree is very useful to us. Especially when working with html pages. It is very easy to get lost in your html page if you dont know the exact location of your tags at a given moment. It also makes styling css almost imposible (at least for me).
+  It is named a "tree structure" because of its visual likeness to that of a actual tree. Even though the chart is generally upside down, with the "root" at the top and the "leaves" at the bottom. It still works as a nice visual. The tree's leaves in our case are your html tags and any objects stored in them. The specific term for these tags are **`nodes`**. These nodes are your **div, h, p, a tags etc.** The tree is very useful to us. Especially when working with html pages. It is very easy to get lost in your html page if you dont know the exact location of your tags at a given moment especially when you forget  to indent. It also makes styling css almost imposible (at least for me).
   In JQuery there's a surplus amount of functions to traverse throughout the tree as it is represented and gone through linearly.(Up and Down)
 
   ![alt tag](https://github.com/yukio808/JQuery_Demo_Tree_Traversal/blob/master/public/images/dom_tree%20(1).gif)
