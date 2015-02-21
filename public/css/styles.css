@@ -3563,3 +3563,6 @@ footer {
 .vi {
   position: absolute;
   z-index: 3; }
+
+.jquery_buttons > div {
+  cursor: pointer; }
