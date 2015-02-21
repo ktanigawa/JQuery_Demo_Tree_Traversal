@@ -49,7 +49,7 @@ An Example will be shown in the live coding on 2/23/15.
 Everyone else good luck
 
 ###Step 2: siblings();
-The .siblings() method allows us to find all the **`**siblings**`** of a specified element in the DOM tree.
+The .siblings() method allows us to find all the **`siblings`** of a specified element in the DOM tree.
 
 1. Use the JQuery method **`siblings()`** to find all of the siblings of **`li.fall`** .
 2. Then finish the pre-coded click event to change the background color of each of the siblings to red.
