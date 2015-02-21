@@ -44,7 +44,7 @@ The .find() method allows us to find all the **`descendants`** of specified elem
 
 1. Use the Jquery method **`find()`** to look for all the **`li`** children of Div class **`row`**.
 2. Then finish the pre-coded click event to change background color to green on all the **`**li**`** children in the Div class **`**row**`**.
-Simply add a extra class called **`highlife`** to the specified target using the addClass method at the end of the `find()` method. 
+Simply add a extra class called **`highlife`** to the specified target using the `addClass()` method at the end of the `find()` method. 
 An Example will be shown in the live coding on 2/23/15.
 Everyone else good luck
 
@@ -53,7 +53,7 @@ The .siblings() method allows us to find all the **`**siblings**`** of a specifi
 
 1. Use the JQuery method **`siblings()`** to find all of the siblings of **`li.fall`** .
 2. Then finish the pre-coded click event to change the background color of each of the siblings to red.
-Simply add a extra class called **`gravire`** to the specified target using the addClass method at the end of the `find()` method. 
+Simply add a extra class called **`gravire`** to the specified target using the `addClass()` method at the end of the `find()` method. 
 An Example will be shown in the live coding on 2/23/15.
 Everyone else good luck
 
@@ -63,7 +63,7 @@ This selector is very similar to **`**find()**`**, however the children selector
 
 1. Use the JQuery method **`children()`** to find all the children of parent of h1 **`desktop_logo`**.
 2. Then finish the pre-coded click event to hide the child elements using the CSS property visibility.
-Simply add a extra class called **`kowloon`** to the specified target using the addClass method at the end of the `find()` method. 
+Simply add a extra class called **`kowloon`** to the specified target using the `addClass()` method at the end of the `find()` method. 
 An Example will be shown in the live coding on 2/23/15.
 Everyone else good luck
 
