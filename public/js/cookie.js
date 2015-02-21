@@ -1,4 +1,4 @@
-//WARNING: DO NOT ATTEMPT TO EDIT THIS JAVA DOCUMENT.
+//WARNING: DO NOT ATTEMPT TO EDIT THIS JAVA DOCUMENT. YOU EILL CRASH YOUR BROWSER;
 //LOL
 //
 //
@@ -10,7 +10,7 @@
 //
 //
 //
-//
+//nahjk
 $(function(){
   var closest = $('body').find('.closest');
   closest.click(function() {
