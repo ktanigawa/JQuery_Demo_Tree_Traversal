@@ -52,8 +52,7 @@ Everyone else good luck
 The .siblings() method allows us to find all the **`siblings`** of a specified element in the DOM tree.
 
 1. Use the JQuery method **`siblings()`** to find all of the siblings of **`li.fall`** .
-2. Then finish the pre-coded click event to change the background color of each of the siblings to red.
-Simply add a extra class called **`gravire`** to the specified target using the `addClass()` method at the end of the `find()` method. 
+2. After use the JQuery method `addClass()` to the end of the function. add the class called **`gravire`** to the specified target. 
 An Example will be shown in the live coding on 2/23/15.
 Everyone else good luck
 
@@ -63,7 +62,7 @@ This selector is very similar to **`**find()**`**, however the children selector
 
 1. Use the JQuery method **`children()`** to find all the children of parent of h1 **`desktop_logo`**.
 2. Then finish the pre-coded click event to hide the child elements using the CSS property visibility.
-Simply add a extra class called **`kowloon`** to the specified target using the `addClass()` method at the end of the `find()` method. 
+Simply add a extra class called **`kowloon`** to the specified target using the `addClass()` method at the end of the `children()` method. 
 An Example will be shown in the live coding on 2/23/15.
 Everyone else good luck
 
@@ -72,7 +71,6 @@ The .parent() method traverses to the immediate parent of a specified element in
 
 1. Use the JQuery method **`parent()`** to find the immediate parent of the Div class **`hero`**.
 2. Then finish the pre-coded click event to console.log the result of the function.
-//add class kowloon for styling.
 
 ###Step 5: parents();
 The .parents() method allows us to search through the ancestors of a specified element in the DOM tree.
