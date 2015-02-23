@@ -87,4 +87,4 @@ This method very similar to **`parent()`** in the sense that it only produces on
 2. Then finish the pre-coded click event to console.log the result of the function.
 
 ## Challenge: 
-Explore these functions on your own and get a feel of what they can do. Use the pre-coded finctions you just created and switch up the classes and such.
+Explore these functions on your own and get a feel of what they can do. Use the pre-coded functions you just created and switch up the classes and such.
