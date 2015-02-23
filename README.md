@@ -85,3 +85,6 @@ This method very similar to **`parent()`** in the sense that it only produces on
 
 1. Use the JQuery method **`closest()`** to find the first **`div`** of the ul class **`main_nav`**.
 2. Then finish the pre-coded click event to console.log the result of the function.
+
+## Challenge: 
+Explore these functions on your own and get a feel of what they can do. Use the pre-coded finctions you just created and switch up the classes and such.

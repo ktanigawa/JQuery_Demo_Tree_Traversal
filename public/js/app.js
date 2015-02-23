@@ -11,7 +11,8 @@ $(function(){
     $('.highlife, .gravire, .kowloon').removeClass('highlife gravire kowloon');
     $('.vi').remove();
 
-  });
+
+  });// end of find
   
 
 // 1. Use the JQuery method `siblings()` to find all of the siblings of `li.fall` .
@@ -23,7 +24,7 @@ $(function(){
     $('.vi').remove();
 
 
-  });
+  });// end of sibling
  
 
 // 1. Use the JQuery method `children()` to find all the children of parent h1 `desktop_logo`.
@@ -35,7 +36,7 @@ $(function(){
     $('.vi').remove();
 
 
-  });
+  });// end of children
 
 // apply a class to children 
 
@@ -46,7 +47,9 @@ $(function(){
   parent.click(function (event) {
     $('.highlife, .gravire, .kowloon').removeClass('highlife gravire kowloon');
     $('.vi').remove();
-  });
+
+
+  });// end of parent
 
 // 1. Use the JQuery method `parents()` to find all the `ancestors` of Span class `nameof`.
 // 2. Then finish the click event to console.log the result of the function. 
@@ -56,7 +59,9 @@ $(function(){
   parents.click(function (event) {
     $('.highlife, .gravire, .kowloon').removeClass('highlife gravire kowloon');
     $('.vi').remove();
-  });
+
+
+  });// end of parents
 
 // 1. Use the JQuery method `closest()` to find the first `div` of the ul class `main_nav`.
 // 2. Then finish the click event to console.log the result of the function.
@@ -64,5 +69,7 @@ $(function(){
   var main_nav = $("ul.main_nav");
   closest.click(function (event) {
     $('.highlife, .gravire, .kowloon').removeClass('highlife gravire kowloon');
-  });
-});
+
+
+  });//end of closest
+});//end of JQuery functions
