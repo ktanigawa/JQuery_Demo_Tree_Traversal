@@ -43,8 +43,7 @@ The DOM tree is a representation of a complex structure such as a html page.
 The .find() method allows us to find all the **`descendants`** of specified element in the DOM tree.
 
 1. Use the Jquery method **`find()`** to look for all the **`li`** children of Div class **`row`**.
-2. Then finish the pre-coded click event to change background color to green on all the **`**li**`** children in the Div class **`**row**`**.
-Simply add a extra class called **`highlife`** to the specified target using the `addClass()` method at the end of the `find()` method. 
+2. After use the JQuery method `addClass()` to the end of the function. add the class called **`highlife`** to the specified target. 
 An Example will be shown in the live coding on 2/23/15.
 Everyone else good luck
 
